@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Permanent-Marker";
+    src:url(/dadstuff/week_3/keycode/PermanentMarker-Regular.ttf)
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 187, 230);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-family: "Permanent-Marker";
+    font-size: 125px;
+    text-shadow: 10px 10px blueviolet;
+}
+
+h2 {
+    font-family: "Permanent-Marker";
+    font-size: 35px;
+    text-shadow: 2.5px 5px blueviolet;
+}
+
+p {
+    font-family: "Permanent-Marker";
+    font-size: 35px;
+    text-shadow: 2.5px 4.5px blueviolet;
+}

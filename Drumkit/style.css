@@ -1,0 +1,78 @@
+@font-face{
+    font-family: New_Amsterdam;
+    src: url(/dadstuff/Fonts/NewAmsterdam-Regular.ttf);
+}
+  
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: thistle;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 5vh;
+    text-decoration: underline;
+    text-shadow: 5px 2px rgb(118, 102, 95);
+    font-family: New_Amsterdam;
+    font-size: 50px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 5vh;
+    text-decoration: overline;
+    font-family: New_Amsterdam;
+    text-shadow: 5px 2px rgb(118, 102, 95);
+}
+
+.container2 {
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(74, 23, 121, 0.11);
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:thistle;
+    height: 35vh;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    border-width: 27.5px;
+    border-radius: 17.5px;
+    border-style: inset;
+    border-color: rgb(194, 145, 240);
+
+
+}
+
+.container button{
+    width: 150px;
+    height: 125px;
+    border-radius: 15%;
+    border-inline-color:50px;
+    border-width: 10px 10px;
+    text-shadow: 2.5px 5px plum;
+    background-color: rgba(236, 148, 236, 0.468);
+    
+    
+
+   
+} 
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>k3y{c0d3}</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>k3y{c0d3}</h1>
+
+
+<h2>Your Current Mouse-Pointer Co-Ordinates..<br><br></h2>
+
+<p onmousemove="coordinate(event)">X =
+    <input type="text" id="X">
+    <br><br>Y = 
+    <input type="text" id="Y"><br><br>
+</p>
+
+<br>
+
+<p>The Last Key Pressed:<span id="keyDisplay"></span></p>
+<p>Code:<span id="keyCode"></span></p>
+<p>.which:</p>
+<p style="font-size: 100px;" placeholder="xxxx"><span id="keyNum"></span></p>
+
+<p id="title2">Co-Ordinates Of Your Last Mouse-Click:</p>
+<p id="coordinates"></p>
+
+    <script src="main.js"></script>
+</body>
+</html>

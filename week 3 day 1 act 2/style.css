@@ -1,0 +1,11 @@
+*{
+    padding: 5%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(164, 202, 215);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
